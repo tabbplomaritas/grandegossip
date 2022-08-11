@@ -1,0 +1,29 @@
+div:nth-of-type(1) {
+  background: linear-gradient(to top left, rgb(255, 136, 0) , rgb(255, 0, 72));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  padding: 20px;
+  color:rgb(77, 12, 143);
+
+}
+
+img {
+  width: 400px;
+  border: 8px solid rgb(7, 108, 112);
+  transition: 1s all;
+}
+
+img:hover {
+  /* width: 450px; */
+  border: 8px solid rgb(226, 0, 128);
+filter: blur(3px);
+}
+
+h1 {
+  font-size: 100px;
+color:rgba(106, 33, 217, 0.565);
+}
