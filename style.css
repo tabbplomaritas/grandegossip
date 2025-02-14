@@ -184,44 +184,46 @@ hr {
 
 }
 
-.specials p, .specials li {
+.doggies p, .specials li {
 font-size: 25px;
 font-family: 'Times New Roman', Times, serif;
 
 }
 
-.specials form {
-background-color:aquamarine;
-  margin:  10px ;
+/* form styles */
+
+.doggies form {
+  background-color:aquamarine;
+  margin: 10px auto ;
   border-radius: 10px ;
   min-width: 250px;
   max-width: 500px;
   text-align:left;
-padding: 20px;
-
-
+  padding: 20px;
 }
 
-.specials form button{
+form label{
+  display: block;
+}
+
+.doggies form button{
   display: block;
   margin-top: 10px;
-
-
 }
-.specials img {
+.doggies img {
   width: 300px;
   
 }
 
 
-.specials .box{
+.doggies .box{
   background-color:aquamarine ;
   margin:  10px ;
   border-radius: 10px ;
   width: 300px;
 }
 
-.specials h3 {
+.doggies h3 {
   color: rgb(210, 5, 233);
   padding: 10px;
   text-align: center;
@@ -256,4 +258,12 @@ padding: 20px;
       rgba(239, 46, 110, 0.45)
     ), url(./images/danger.png);
   background-size: contain;
+}
+
+.specials h2, li, h3, p {
+text-align: left;
+padding: 20px;
+
+
+
 }
