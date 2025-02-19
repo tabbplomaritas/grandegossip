@@ -237,29 +237,54 @@ form label{
 }
 
 .album a {
+  box-sizing: border-box;
+  height: 232px;
   margin-left: 10px;
-  border-radius: 6px;
-  /* background-color: blueviolet; */
+  border-radius: 12px;
   padding: 10px;
   color: rgb(255, 255, 255);
   font-size: 26px;
   transition: .3s all;
   align-self: stretch;
-
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
 }
 
 .album a:hover {
   transform: scale(1.1);
 }
 
-.album a:nth-of-type(1) {
-  background-image:  linear-gradient(
-      rgba(255, 0, 234, 0.45), 
-      rgba(239, 46, 110, 0.45)
-    ), url(./images/danger.png);
-  background-size: contain;
+/* .album a span {
+  border: 2px solid red;
+  margin-top: -20px;
+} */
+
+#boyismine a{
+  background-image: url(./images/bis.png);
 }
 
+#danger a {
+  background-image:  url(./images/danger.png);
+}
+
+#lemme a {
+  background-image:  url(./images/lemme.png);
+}
+
+#pov a {
+  background-image:  url(./images/pov.png);
+}
+
+#ordinary a {
+  background-image:  url(./images/ordinary.png);
+}
+
+#feeling a {
+  background-image:  url(./images/Feeling.png);
+}
+v
 .specials h2, li, h3, p {
 text-align: left;
 padding: 20px;
